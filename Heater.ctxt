@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Heater
+comment0.text=\n\ A\ Heater\ models\ a\ simple\ space-heater.\ The\ operations\ provided\ by\ a\ Heater\n\ object\ are\:\n\ 1.\ Increase\ and\ decrease\ the\ temperature\ setting\ by\ a\ set\ amount.\n\ 2.\ Return\ the\ current\ temperature\ setting.\n\ 3.\ Change\ the\ set\ amount\ by\ which\ the\ temperature\ is\ increased\ and\ lowered.\n\ \n\ @author\ L.S.\ Marshall,\ SCE,\ Carleton\ University\n\ (incomplete\ implementation\ for\ SYSC\ 2004\ Lab\ 2)\n\ @author\ Riya\ Arora\ (101190033).\n\ @version\ 1.03\ May\ 15th,\ 2022\n
+comment1.params=
+comment1.target=Heater()
+comment1.text=\n\ Constructs\ a\ new\ Heater\ with\ an\ initial\ temperature\ setting\ of\ 15\n\ degrees,\ and\ which\ increments\ and\ decrements\ the\ temperature\n\ setting\ in\ increments\ of\ 5\ degrees.The\ minimum\ possible\ \n\ temperature\ is\ set\ to\ 0,\ and\ the\ maximum\ is\ set\ to\ 100.\n
+comment2.params=minTemp\ maxTemp
+comment2.target=Heater(int,\ int)
+comment2.text=\n\ Constructs\ a\ new\ Heater\ with\ an\ initial\ temperature\ setting\ of\ 15\n\ degrees,\ and\ which\ increments\ and\ decrements\ the\ temperature\n\ setting\ in\ increments\ of\ 5\ degrees.\ The\ maximum\ and\ minim\ possible\n\ temperatures\ are\ also\ set.\ \n\ \n\ @param\ minTemp\ \ the\ minimum\ possible\ temperature\ of\ the\ heater.\n\ @param\ maxTemp\ \ the\ maximum\ possible\ temperature\ of\ the\ heater.\n
+comment3.params=
+comment3.target=int\ temperature()
+comment3.text=\n\ Returns\ the\ current\ temperature\ setting.\n
+comment4.params=
+comment4.target=void\ warmer()
+comment4.text=\n\ Increases\ the\ current\ temperature\ by\ value\ stored\ \n\ in\ 'increment'\n
+comment5.params=
+comment5.target=void\ cooler()
+comment5.text=\n\ Decreases\ the\ current\ temperature\ by\ value\ stored\ \n\ in\ 'increment'\n
+comment6.params=newIncrement
+comment6.target=void\ setIncrement(int)
+comment6.text=\n\ Sets\ the\ value\ by\ which\ the\ temperature\ will\ increase\ or\ \n\ decrease\n\ @param\ newIncrement\ representing\ the\ value\ of\ the\ new\ \n\ increment,\ must\ be\ a\ positive\ integer\n
+comment7.params=
+comment7.target=float\ fahrenheit()
+comment7.text=\n\ Conversion\ of\ Celsius\ to\ Fahrenheit\n\ Conversion\ uses\ the\ temperature\ method\n
+numComments=8
